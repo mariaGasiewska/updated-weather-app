@@ -1,16 +1,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('hudson-river-park-1536x1024.jpg');
 }
 
 .updated-weather-app {
     max-width: 700px;
     margin: 40px auto;
+    margin-left: 350px;
     padding: 30px;
     border: 1px solid rgb(80, 109, 134);
     border-radius: 4px;
 }
 h1{
-    color: rgba(128, 128, 128, 0.777);
+    color: rgba(29, 22, 22, 0.777);
     display:block;
     font-weight: 100;
     text-align: left;
@@ -21,13 +23,14 @@ ul {
     padding-left: 0;
 }
 li {
-    color:rgba(43, 55, 102, 0.777);
+    color:rgba(19, 35, 99, 0.777);
     display:block;
     font-size: 16px;
     text-align: left;
     list-style: none;
     margin: 0;
     padding: 0;
+    text-transform: capitalize;
 
 }
 .location {
@@ -42,7 +45,7 @@ li {
 }
 .temperature {
     float: left;
-    color:rgba(43, 55, 102, 0.777);
+    color:rgba(19, 36, 100, 0.777);
     font-size: 24px;
 }
 .temperature small {
