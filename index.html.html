@@ -17,6 +17,7 @@
 <body>
     <div class="container">
       <div class="updated-weather-app">
+        <div class="location">
 <h1>New York, NY, USA</h1>
 <ul>
   <li>
@@ -26,12 +27,18 @@
     Clear
   </li>
 </ul>
+</div>
 <div class="row">
-  <div class="col=md-6">
-    <img src="" alt="clear"/>
-    12 °C || °F
+  <div class="col-md-6">
+    <div class="d-flex weather-temp">
+    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="clear" class="float-left"/>
+    <div class="float-left">
+
+     <span class="temperature">12<small> °C || <a href="">°F</a></small></span>
+  </div> 
   </div>
-  <div class="col=md-6">
+  </div>
+  <div class="col-md-6">
     <ul>
       <li>Wind</li>
       <li>Precipitation</li>
@@ -39,8 +46,10 @@
     </ul>
   </div>
 </div>
+<footer>
+<small>coded by <a href="https://github.com/MaariaCaroline/updated-weather-app" target="_blank">Maria Gąsiewska</a></small></footer>
 </div>
-<h6>coded by <a href="https://github.com/MaariaCaroline/updated-weather-app" target="_blank">Maria Gąsiewska</a></h6>
+
     </div>
     <script src="index.js"></script>
 </body>
