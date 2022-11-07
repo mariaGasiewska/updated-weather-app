@@ -40,8 +40,20 @@ iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.dat
 iconElement.setAttribute("alt", `{response.data.weather[0].description}`)
 }
 
+function search(city) {
 let apiKey = "50f08580ddb58d03ac1e0e37f19dd297";
-let city = "Taipei"
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
 axios.get(apiUrl).then(displayTemperature);
+
+}
+
+function showWeather(event){
+event.preventDefault();
+let searchInputElement = document.querySelector("#search");
+search(searchInputElement.value);
+}
+
+search("New York");
+
+let form = document.querySelector("#form");
+form.addEventListener("submit", showWeather);

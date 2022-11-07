@@ -4,9 +4,9 @@ body {
 }
 
 .updated-weather-app {
-    max-width: 700px;
+    max-width: 650px;
     margin: 40px auto;
-    margin-left: 350px;
+    margin-left: 480px;
     padding: 30px;
     border: 1px solid rgb(80, 109, 134);
     border-radius: 4px;
@@ -51,4 +51,7 @@ li {
 .temperature small {
     position:relative;
     top: -3px;
+}
+#form {
+    padding-bottom: 20px;
 }
