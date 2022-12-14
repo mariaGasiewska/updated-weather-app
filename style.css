@@ -8,7 +8,7 @@ body {
     margin: 40px auto;
     margin-left: 480px;
     padding: 30px;
-    border: 1px solid rgb(80, 109, 134);
+    border: 1px solid rgba(80, 109, 134, 0.33);
     border-radius: 4px;
 }
 h1{
@@ -62,3 +62,14 @@ li {
 .weather-temp .active:hover {
     text-decoration: none;
 }
+input[type=search] {
+    border: 2px solid rgba(19, 36, 100, 0.777);
+    border-radius: 4px;
+    background-color: rgba(236, 231, 231, 0.77);
+    padding: 1.25rem;
+  }
+  input[type=submit] {
+    border: 2px solid rgba(19, 36, 100, 0.777);
+    border-radius: 4px;
+    background-color: rgba(236, 231, 231, 0.77);
+  }
