@@ -7,7 +7,6 @@ body {
 }
 
 .container {
-    max-width: 45%;
     align-items: center;
     margin: 3% auto;
     padding: 4%;
@@ -74,7 +73,7 @@ input[type=search] {
     border: 2px solid rgba(19, 36, 100, 0.777);
     border-radius: 4px;
     background-color: white ;
-    padding: 1.25rem;
+    padding: 2rem;
     float: left;
     margin-bottom: 10%;
   }
@@ -85,6 +84,11 @@ input[type=search] {
     float: right;
   }
   @media screen and (max-width: 600px) {
+    .container {
+    width: 85%;
+    margin-top: 0; } }
+
+@media screen and (max-width: 600px) {
     #form input[type=submit] {
     width: 100%;
     margin-top: 0; } }
